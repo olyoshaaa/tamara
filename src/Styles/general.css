@@ -1,6 +1,13 @@
+
+#gameProcessVista {
+    -fx-background-color: pink;
+}
+
+#mainMenuVista {
+    -fx-background-color: coral;
+}
+
 .button {
-
     -fx-base: lightblue;
-    -fx-font-size: 20px;
-
+    -fx-font-size: 14px;
 }

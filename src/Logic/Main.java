@@ -15,6 +15,8 @@ public class Main extends Application {
         launch(args);
     }
 
+    public final String GENERAL_CSS = "/Styles/general.css";
+
 
     @Override
     public void start(Stage stage) throws IOException {
@@ -29,7 +31,7 @@ public class Main extends Application {
     private Scene createScene (StackPane vistaHolder) {
         Scene scene = new Scene(vistaHolder);
 
-        scene.getStylesheets().setAll(getClass().getResource("/Styles/general.css").toExternalForm());
+        scene.getStylesheets().setAll(getClass().getResource(GENERAL_CSS).toExternalForm());
 
         return scene;
     }
