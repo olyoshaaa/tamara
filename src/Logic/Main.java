@@ -1,5 +1,6 @@
 package Logic;
 
+import Controllers.GameProcessVistaController;
 import Controllers.MainController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -44,6 +45,8 @@ public class Main extends Application {
         StackPane vistaHolder = loader.load(getClass().getResourceAsStream(VistaNavigator.MAIN));
 
         MainController mainController = loader.getController();
+
+
 
         VistaNavigator.setMainController(mainController);
         VistaNavigator.loadVista(VistaNavigator.MAIN_MENU_VISTA);

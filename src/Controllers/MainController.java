@@ -1,5 +1,6 @@
 package Controllers;
 
+import Logic.Animal;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.layout.StackPane;
